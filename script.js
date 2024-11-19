@@ -24,7 +24,6 @@ for(let i=0;i<boxRowsize*boxRowsize;i++){
     frag.addEventListener('mouseover',()=>{
         let color = getRandomColor();
         frag.style.background=color;
-        frag.style.opacity=`0.${i}`;
     })
     container.appendChild(frag);
 }}
